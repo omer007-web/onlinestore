@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { CartCxt } from '../store/CartContext'
 import CartItem from '../components/CartItem'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus, faShop } from '@fortawesome/free-solid-svg-icons'
+import { faShop } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
 
 const Cart = () => {

@@ -4,10 +4,10 @@ import { toast } from 'react-toastify'
 
 const CartCxt = createContext<cartContextType>({
   cartItems: [],
-  addToCart: (item: product) => {},
-  removeFromCart: (item: product) => {},
-  updateCart: (item: product) => {},
-  deleteFromCart: (item: product) => {}
+  addToCart: () => {},
+  removeFromCart: () => {},
+  updateCart: () => {},
+  deleteFromCart: () => {}
 })
 
 const CartContext: React.FC<{ children: ReactNode }> = props => {

@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import useFetch from '../hooks/useFetch'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faArrowRight,
-  faCircle,
   faCircleChevronRight
 } from '@fortawesome/free-solid-svg-icons'
 const initialConfig = {}
